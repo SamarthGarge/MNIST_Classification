@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 import cv2
-import requests
+# import requests
 import streamlit_lottie as st_lottie
 import json
 

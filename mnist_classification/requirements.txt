@@ -1,9 +1,8 @@
 numpy
-tensorflow
+tensorflow==2.8.0
 streamlit
 Pillow
 streamlit-drawable-canvas
-opencv-python
+opencv-python-headless>=4.5.3
 requests
 streamlit-lottie
-opencv-python-headless>=4.5.3
