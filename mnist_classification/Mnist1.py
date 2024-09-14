@@ -108,7 +108,7 @@ with st.sidebar:
 # Load model
 @st.cache_resource
 def load_my_model():
-    model = tf.keras.models.load_model("mnist_classification\model.h5")
+    model = tf.keras.models.load_model("mnist_classification/model.h5")
     return model
 
 model = load_my_model()
