@@ -6,3 +6,4 @@ streamlit-drawable-canvas
 opencv-python
 requests
 streamlit-lottie
+opencv-python-headless>=4.5.3
