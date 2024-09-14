@@ -24,8 +24,7 @@ uploaded_file = st.file_uploader("Choose a digit_image...", type=["png","jpg","j
 
 if uploaded_file is not None and model is not None:
     st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
-
-    image = Image = open(uploaded_file).convert('L')
+    image = Image.open(uploaded_file).convert('L')
     image = image.resize((28,28))
 
     st.image(image, caption='Processed Image (28x28 Grayscale)', use_column_width=True)
