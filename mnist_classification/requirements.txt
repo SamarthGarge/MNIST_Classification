@@ -6,4 +6,3 @@ streamlit-drawable-canvas
 opencv-python-headless>=4.5.3
 requests
 streamlit-lottie
-pip install --upgrade pip
