@@ -1,11 +1,9 @@
-pip install --upgrade pip
-pip install tensorflow==2.16.0
-pip install numpy==2.1.1
+numpy
+tensorflow==2.8.0
 streamlit
 Pillow
 streamlit-drawable-canvas
-streamlit-lottie
 opencv-python-headless>=4.5.3
-numpy==2.1.1
-tensorflow==2.16.0
-pip install -r requirements.txt
+requests
+streamlit-lottie
+pip install --upgrade pip
