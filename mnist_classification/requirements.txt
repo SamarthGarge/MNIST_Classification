@@ -1,4 +1,6 @@
-pip install tensorflow==2.16.1
-pyenv install 3.9.13
-pyenv global 3.9.13
 pip install --upgrade pip
+pip install tensorflow==2.16.0
+pip install numpy==2.1.1
+numpy==2.1.1
+tensorflow==2.16.0
+pip install -r requirements.txt
