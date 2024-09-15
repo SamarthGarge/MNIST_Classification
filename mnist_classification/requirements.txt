@@ -1,8 +1,4 @@
-numpy
-tensorflow==2.8.0
-streamlit
-Pillow
-streamlit-drawable-canvas
-opencv-python-headless>=4.5.3
-requests
-streamlit-lottie
+pip install tensorflow==2.16.1
+pyenv install 3.9.13
+pyenv global 3.9.13
+pip install --upgrade pip
